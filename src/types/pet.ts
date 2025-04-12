@@ -6,3 +6,8 @@ export interface Pet {
   image?: string;
   description?: string; 
 }
+
+export interface Weight {
+    date: string;
+    weight: number;
+  }
